@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@golem-sdk/task-executor": "^1.4.0",
+    "@metamask/eth-sig-util": "^7.0.1",
+    "body-parser": "^1.20.2",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.11.1",
+    "express": "^4.19.2",
+    "node-input-validator": "^4.5.1",
+    "perfect-express-sanitizer": "^2.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "underscore": "^1.13.6",
+    "web3": "^4.7.0"
+  }
+}

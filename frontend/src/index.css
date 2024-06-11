@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  background: url("/public/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 1;
+}
+
+html, body, #root {
+  height: 100%
+}
+
+.metamask {
+  display: flex;
+  align-items: center;
+  margin: auto!important;
+}
+
+#navbrand {
+  display: flex;
+  align-items: center;
+}
+
+#navbrand>div {
+  margin: 10px;
+}
+
+body.light-mode {
+  background-color: #fff;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #1a1919;
+  color: #999;
+}
+
+.available {
+  background-color: #0dcaf0!important
+}
+
+.win {
+  background-color: #adb5bd!important;
+}
+
+.played {
+  background-color: #75b798!important
+}
+
+.computing {
+  background-color: #fff3cd!important
+}
+
+.waiting {
+  background-color: #ea868f!important
+}
+
+iframe
+{
+    display: none;
+}
+
+.same-col-widths th {
+  width: 25%;
+}
+
+.accordion-button {
+  background-color: var(--bs-accordion-active-bg)!important;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0,0,0,.125);
+}
+
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: none!important;
+}
+
+.rainbowText {
+  background-image: linear-gradient(to right, #ffffff, #007fff, #003061, #616161, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: move 500s linear infinite;
+}
+
+@keyframes move {
+  to {
+    background-position: 4500vh;
+  }
+}
+
+.form-control:focus {
+  border-color: var(--bs-border-color)!important;
+  box-shadow: none!important;
+}
+
+.form-select:focus {
+  border-color: var(--bs-border-color)!important;
+  box-shadow: none!important;
+}
+
+.prevent-select {
+  -webkit-user-select: none!important; /* Safari */
+  -ms-user-select: none!important; /* IE 10 and IE 11 */
+  user-select: none!important; /* Standard syntax */
+}
+
+.input-disabled {
+    pointer-events: none;
+}
+
+.width70 {
+  width: 70%;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.pl12 {
+  padding-left: 12px;
+}
+
+.pt0 {
+  padding-top: 0px;
+}
+
+.cblack {
+  color: black;
+}
+
+.cwhite {
+  color: white;
+}
+
+.cred {
+  color: red;
+}
+
+.tar-pr12 {
+  text-align: right;
+  padding-right: 12px;
+}
+
+.vatt {
+  vertical-align: text-top;
+}
+
+.accbc {
+  background-color: #adb5bd!important;
+}

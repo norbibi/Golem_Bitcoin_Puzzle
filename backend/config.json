@@ -1,0 +1,20 @@
+{
+	"NVIDIA GeForce RTX 4090": {
+		"rc": 			"rc89",
+		"taskTimeout": 	20,
+		"whitelist": 	[	"0xe97cd5f6fdd8694d1e3019607f39b0ef68554c0a", "0xed8ac54779b567eb675da91d85c7fe107715bdcf", "0xd46b81996e7c8a7002ab66b26957b5d47cac980f",
+							"0x0cef47ff5fd7fa73d75a553110ee07c60d06a69a", "0x22901e957516b876ec6d5bd6b63c4e99cd7bbb7d", "0x85283261d65300e0f05d9b36ebe60b18db880bf2",
+							"0x4f0d2da44fb8b77c823aa417fca4fe6fc2bff3ea", "0x8f82743824fd18c99a5d4341e3fffb711d190d31", "0x8b9b728b1df2a47d385c120345f340b097a9563b",
+							"0x4350071769f4b44a544760c5288a409959b46390"
+						],
+		"blacklist":	[]
+	},
+	"NVIDIA GeForce RTX 3090": {
+		"rc": 			"rc86",
+		"taskTimeout": 	35,
+		"whitelist":	[
+							"0x72644ae077ba12c39eeb7bda5419e6189ad25be6", "0x72770bff6ec101e4bdc64f9cff489099d4e37423", "0x50a6612d55f95ea34f3f82b189ee33dba34c44c4"
+						],
+		"blacklist":	[]
+	}
+}
